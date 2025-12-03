@@ -1,0 +1,27 @@
+Employee FAQ
+
+1. How do I reset my laptop password?
+You can raise a ticket in the IT support portal under the category “Login Issues”.
+The IT team typically resolves password resets within 2 hours.
+
+2. How can I update my bank account details?
+Update your banking details through the HRMS portal under "My Profile → Bank Information".
+
+3. How do I apply for leave?
+Leave applications must be submitted in the HRMS portal.
+Managers generally approve or reject requests within 24 hours.
+
+4. Who should I contact for payroll issues?
+Email: payroll-support@company.com
+Response time: 24–48 business hours.
+
+5. What is the reimbursement process?
+Submit bills through the Finance portal within 30 days of purchase.
+Finance verifies bills and processes reimbursements in the next salary cycle.
+
+6. What is the sick leave Policy?
+You can avail unlimited sick leaves during your tenure. 
+However you should provide a medical certificate for more than 3 consecutive sick days.
+
+7. Can I get travel reimbursement?
+Depending on your project you can avail travel reimbursements upto INR 5000/- every month.
