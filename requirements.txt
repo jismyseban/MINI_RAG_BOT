@@ -1,0 +1,6 @@
+python-telegram-bot==20.3
+sentence-transformers==2.2.2
+numpy
+scikit-learn
+huggingface-hub==0.16.4
+python-dotenv
