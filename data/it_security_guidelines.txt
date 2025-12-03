@@ -1,0 +1,39 @@
+IT Security Guidelines - 2024
+
+1. Password Policy
+Employees must update their account passwords every 60 days.
+Passwords should contain at least 8 characters, including:
+- One uppercase letter
+- One lowercase letter
+- One number
+- One special character
+
+Password sharing is strictly prohibited.
+
+2. Email & Phishing Safety
+Employees should not open suspicious links or attachments.
+If a suspicious email is received, report it immediately using:
+"Report Phishing" option in the email client.
+
+3. VPN Usage
+VPN must be used when accessing:
+- Internal company applications
+- HR and Payroll systems
+- Confluence and Jira from outside office network
+
+Public Wi-Fi should not be used without VPN.
+
+4. Device Security
+Employees should:
+- Lock laptops when stepping away
+- Avoid storing company files on USB drives
+- Install updates only from authorized sources
+
+Lost or stolen devices must be reported to IT within 1 hour.
+
+5. Data Handling Rules
+Internal documents must not be shared outside the organization without approval.
+Confidential data must only be stored in encrypted company-managed cloud storage.
+Copying data to personal email accounts is prohibited.
+
+Non-compliance with IT security guidelines may lead to disciplinary action.

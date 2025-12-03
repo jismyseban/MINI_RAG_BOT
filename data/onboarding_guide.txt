@@ -1,0 +1,28 @@
+New Employee Onboarding Guide - Quick Reference
+
+1. Day 1 Activities
+- Collect laptop from IT desk
+- Submit ID verification documents
+- Attend orientation session at 11:00 AM
+- Set up email and HRMS accounts
+
+2. Tools You Will Use
+- Microsoft Teams for meetings
+- HRMS Portal for leave and payroll
+- Service Desk Portal for IT support
+- Confluence for documentation
+- Jira for task tracking
+
+3. Mandatory Trainings
+New hires must complete mandatory trainings within the first 7 days:
+- Code of Conduct
+- Cybersecurity Awareness
+- Workplace Safety Standards
+
+4. Buddy Program
+Each new employee is assigned a buddy for the first 30 days.
+Buddies assist with onboarding, day-to-day queries, and team integration.
+
+5. Performance Review Cycle
+The company follows a bi-annual performance review cycle in June and December.
+Employees set OKRs at the beginning of each cycle.
