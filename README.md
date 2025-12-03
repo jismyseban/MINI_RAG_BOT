@@ -116,5 +116,70 @@ Now open Telegram → search for **@Grawp_Bot** → and test:
 
 
 
+## 📌 Behind the Scenes
+
+### 1. Embedding Model
+**Model:** `sentence-transformers/all-MiniLM-L6-v2`  
+**Why:**  
+- Lightweight (22M parameters)  
+- Fast CPU inference  
+- Ideal for small/medium RAG systems  
+- Produces 384-dimensional vectors used for cosine similarity  
+
+**Used For:**  
+- Embedding document chunks  
+- Embedding user queries  
+
+---
+
+### 2. Vector Store (Database)
+**Database:** SQLite (`db/embeddings.db`)  
+**Why:**  
+- Zero external dependencies  
+- Fast enough for <10k documents/chunks  
+- Fully local and portable  
+- Stores:
+  - chunk text  
+  - embeddings (as BLOB)  
+  - source filename  
+  - SHA1 hash for incremental indexing  
+
+**Used For:**  
+- Storing persistent embeddings  
+- Retrieving top-k similar chunks  
+
+---
+
+### 3. Language Model (Generation)
+**Provider:** HuggingFace Inference API  
+**Why:**  
+- Low-latency inference  
+- Quality suitable for summarization + QA  
+- Requires only an API key  
+- Runs fully in cloud → no local GPU required  
+
+**Used For:**  
+- Final answer generation using the retrieved context  
+- `/summarize` command  
+
+---
+
+### 4. Bot Framework (Interface Layer)
+**Library:** `python-telegram-bot`  
+**Why:**  
+- Handles `/ask`, `/summarize`, `/help` commands  
+- Manages message passing between Telegram and RAG engine  
+- Clean async design  
+
+**Used For:**  
+- Polling Telegram API  
+- Sending/receiving user messages  
+
+---
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/af49b449-5efe-4cba-8bb2-6575547e82f6" />
+
+
+
 
 
